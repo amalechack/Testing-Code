@@ -1,0 +1,3 @@
+<?php
+printf('Hola mundo');
+?>
