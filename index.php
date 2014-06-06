@@ -6,19 +6,21 @@
 </head>
 <body>
 <?php
-printf('<h1>Hola mundo, ésto es un trabajo de variables múltiples o arrays...</h1> <br>');
+printf('<h1>Ahora ésto es un ejercicio de fibonacci...</h1> <br>');
 
-//empecemos con lo básico...
+//ciclo FOR <-- :D we love it!! .|.
+	//fibonacci
+	$a = 1;
+	$b = 0;
+	$c = 1;
 
-	//variables...
-	$variable[1] = 'hola';
-	$variable[2] = 'mundo';
-	$variable[3] = 'maldito';
+	for ($i=0; $i < 12; $i++) {
+		echo $a.'<br>';
+		$b = $a;
+        $a = $a - $b + $c;
+        $c = $b + $c;
+	}
 
-	echo $variable[1].' '.$variable[2].' '.$variable[3].'<br>';
-
-	$otra = array(1,2,3,4,5);
-	echo $otra[2];
-	?>
+?>
 </body>
 </html>
