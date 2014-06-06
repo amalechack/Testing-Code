@@ -7,7 +7,7 @@
 <body>
 <?php
 printf('<h1>Ahora ésto es un ejercicio de fibonacci...</h1> <br>');
-$hastacuanto = 20
+$hastacuanto = 20;
 //ciclo FOR <-- :D we love it!! .|.
 	//fibonacci
 	$a = 1;
