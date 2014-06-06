@@ -7,14 +7,14 @@
 <body>
 <?php
 printf('<h1>Ahora ésto es un ejercicio de fibonacci...</h1> <br>');
-
+$hastacuanto = 20
 //ciclo FOR <-- :D we love it!! .|.
 	//fibonacci
 	$a = 1;
 	$b = 0;
 	$c = 1;
 	$i = 0;
-	for ($i=0; $i < 12; $i++) {
+	for ($i=0; $i < $hastacuanto; $i++) {
 		echo $a.'<br>';
 		$b = $a;
         $a = $a - $b + $c;
@@ -26,7 +26,7 @@ printf('<h1>Ahora ésto es un ejercicio de fibonacci...</h1> <br>');
 	$b = 0;
 	$c = 1;
 	$i = 0;
-	while ($i < 12) {
+	while ($i < $hastacuanto) {
 		$i++;
 		echo $a.'<br>';
 		$b = $a;
@@ -46,7 +46,7 @@ printf('<h1>Ahora ésto es un ejercicio de fibonacci...</h1> <br>');
         $a = $a - $b + $c;
         $c = $b + $c;
 	}
-	while($i < 12);
+	while($i < $hastacuanto);
 
 ?>
 </body>
