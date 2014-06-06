@@ -46,7 +46,8 @@ printf('<h1>Ahora ésto es un ejercicio de fibonacci...</h1> <br>');
         $a = $a - $b + $c;
         $c = $b + $c;
 	}
-	while($i < 12)
+	while($i < 12);
+
 ?>
 </body>
 </html>
