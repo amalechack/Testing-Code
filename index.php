@@ -15,7 +15,7 @@ printf('<h1>Hola mundo, ésto es un trabajo de variables múltiples o arrays...<
 	$variable[2] = 'mundo';
 	$variable[3] = 'maldito';
 
-	echo $variable[1].' '.$variable[2].$variable[3];
+	echo $variable[1].' '.$variable[2].' '.$variable[3];
 ?>
 </body>
 </html>
