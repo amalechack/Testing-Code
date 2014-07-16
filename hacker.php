@@ -8,7 +8,7 @@
 <?php
 session_start();
 $conex = mysql_connect('localhost','user','password') or die('Base de datos no conectada');
-mysql_select_db('amalechack');
+mysql_select_db('tabla');
 
 if(isset($_POST['usuario']) && isset($_POST['token'])){
 	//hacer consulta
